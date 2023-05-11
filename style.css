@@ -149,18 +149,21 @@ main {
 
 .arrow {
     position: absolute;
-    width: 25px;
-    top: calc(50% - 35px);
-    left: calc(50% - 195px);
+    font-size: large;
+    top: calc(50% - -60px);
+    left: calc(50% - -50px);
+    color: #FF3131;
     z-index: 4;
     cursor: pointer;
     pointer-events: auto;
+    transition: all 0.3s;
 }
 
 .arrow:hover {
-    width: 50px;
-    top: calc(50% - 47px);
-    left: calc(50% - 195px);
+    color: rgb(79, 171, 79);
+    font-size: x-large;
+    top: calc(50% - -55px);
+    left: calc(50% - -50px);
 }
 
 .bgme-img {
