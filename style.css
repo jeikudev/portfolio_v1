@@ -150,8 +150,8 @@ main {
 .arrow {
     position: absolute;
     font-size: large;
-    top: calc(50% - -60px);
-    left: calc(50% - -50px);
+    top: calc(50% - -50px);
+    left: calc(50% - -45px);
     color: #FF3131;
     z-index: 4;
     cursor: pointer;
@@ -162,8 +162,8 @@ main {
 .arrow:hover {
     color: rgb(79, 171, 79);
     font-size: x-large;
-    top: calc(50% - -55px);
-    left: calc(50% - -50px);
+    top: calc(50% - -44px);
+    left: calc(50% - -40px);
 }
 
 .bgme-img {
