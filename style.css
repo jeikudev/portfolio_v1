@@ -3,6 +3,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #22423D;
+}
+
+.darkMode * {
+    color: #fff;
 }
 
 body {
@@ -16,10 +21,6 @@ body {
 .logoDiv {
     display: flex;
     cursor: pointer;
-}
-
-.jeiku {
-    color: #22423D;
 }
 
 .dev {
@@ -53,7 +54,6 @@ header ul {
 
 header ul a {
     text-decoration: none;
-    color: #22423D;
     padding: 0 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
@@ -140,7 +140,6 @@ main {
 
 .text {
     position: absolute;
-    color: #22423D;
     top: calc(50% - 100px);
     left: calc(50% - 250px);
     pointer-events: auto;
@@ -202,7 +201,6 @@ main {
 }
 
 .socials i {
-    color: #22423D;
     font-size: 27px;
     padding-left: 13px;
     transition: all 0.3s;
@@ -264,7 +262,6 @@ main {
 }
 
 .skills hr {
-    color: #22423D;
     width: 80%;
     text-align:left;
     margin-left:0;
@@ -272,7 +269,6 @@ main {
 }
 
 .skills h3 {
-    color: #22423D;
     font-weight: 400;
     letter-spacing: 10px;
     font-size: smaller;

@@ -1,3 +1,5 @@
+// Whole Page Parallax
+
 const parallaxElement = document.querySelectorAll(".parallax");
 
 let xValue = 0, yValue = 0;
@@ -25,3 +27,11 @@ window.addEventListener("mousemove", (event) => {
 })
 
 
+// Night Mode
+
+const nightMode = () => {
+    document.getElementById("backgroundIMG").src="./img/nightmode/nightBackground.png";
+    document.getElementById("brushIMG").src="";
+    var element = document.body;
+    element.classList.toggle("darkMode");
+}
