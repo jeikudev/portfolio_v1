@@ -284,6 +284,20 @@ main {
     align-items: center;
 }
 
+/* 
+
+Night Mode
+
+*/
+
+
+
+
+/* 
+
+Responsive Side uwu ^.^
+
+*/
 @media (max-width: 1100px) {
     .text .softwareDevText h1{
         font-size: 3rem;
