@@ -58,10 +58,10 @@ header ul a {
     text-transform: uppercase;
     font-weight: 300;
     font-size: 0.83rem;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
-.searh a{
+.searh a {
     font-size: 1.0rem;
     padding: 0 3rem;
 }
@@ -199,12 +199,6 @@ main {
     z-index: 6;
     cursor: pointer;
     pointer-events: auto;
-    
-}
-
-.socials h1 {
-    font-weight: 350;
-    color: rgba(1, 1, 1, 0.5);
 }
 
 .socials i {
@@ -240,6 +234,54 @@ main {
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
+}
+
+.skills {
+    position: absolute;
+    width: 50%;
+    height: 150px;
+    top: calc(50% - -20%);
+    left: calc(50% - 25%);
+    z-index: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    pointer-events: auto;
+}
+
+.skills img {
+    max-width: calc(100% - 45%);
+    max-height: calc(100% - 45%);
+    transition: all 0.3s;
+    margin-bottom: 10px;
+}
+
+.skills img:hover {
+    transform: translateY(-10px);
+    filter: drop-shadow(5px 2px 0px #C7EBF2);
+}
+
+.skills hr {
+    color: #22423D;
+    width: 80%;
+    text-align:left;
+    margin-left:0;
+    margin-bottom: 10px;
+}
+
+.skills h3 {
+    color: #22423D;
+    font-weight: 400;
+    letter-spacing: 10px;
+    font-size: smaller;
+}
+
+.skills .skillIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 @media (max-width: 1100px) {
