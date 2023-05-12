@@ -14,15 +14,14 @@ const update = (cursorPosition) => {
         element.style.transform = `translateX(calc(-50% + ${-xValue * speedx}px))
                                     translateY(calc(-50% + ${yValue * speedy}px))
                                     perspective(2300px) translateZ(${zValue * speedz}px)`;
-
     })
 }
-
 update(0);
-
 window.addEventListener("mousemove", (event) => {
     xValue = event.clientX - window.innerWidth / 2;
     yValue = event.clientY - window.innerHeight / 2;
 
     update(event.clientX);
 })
+
+
