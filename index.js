@@ -12,7 +12,7 @@ const update = (cursorPosition) => {
 
         let isInLeft = parseFloat(getComputedStyle(element).left) < window.innerWidth / 2 ? 1 : -1;
         let zValue = (cursorPosition - parseFloat(getComputedStyle(element).left)) * isInLeft * 0.1;
-        
+
         element.style.transform = `translateX(calc(-50% + ${-xValue * speedx}px))
                                     translateY(calc(-50% + ${yValue * speedy}px))
                                     perspective(2300px) translateZ(${zValue * speedz}px)`;
@@ -30,8 +30,9 @@ window.addEventListener("mousemove", (event) => {
 // Night Mode
 
 const nightMode = () => {
-    document.getElementById("backgroundIMG").src="./img/nightmode/nightBackground.png";
-    document.getElementById("brushIMG").src="";
+    alert("NOT DONE YET!!!")
+    document.getElementById("backgroundIMG").src = "./img/nightmode/nightBackground.png";
+    document.getElementById("brushIMG").src = "";
     var element = document.body;
     element.classList.toggle("darkMode");
 }
